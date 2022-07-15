@@ -24,7 +24,7 @@ maybe('Challenge - 3 : my celsiusToFahrenheit function can convert an array of t
         -1,
         2,
         -4
-    ]
+}
     const converted = [
         75,
         86,
