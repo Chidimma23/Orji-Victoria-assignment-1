@@ -1,10 +1,9 @@
-const assignment = require('../src/assignment.js');
+-const assignment = require('../src/assignment.js');
 
 const { celsiusToFahrenheit } = assignment;
 const maybe = celsiusToFahrenheit === undefined ? test.skip : test;
 
 maybe('Challenge - 3 : my celsiusToFahrenheit function can convert an array of temperatures', () => {
-    const numbers = [
         24,
         30,
         14,
