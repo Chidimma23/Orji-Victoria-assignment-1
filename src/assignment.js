@@ -8,17 +8,18 @@ const assignment = {};
  * Challenge - 1
  * 
  * Calculate and return the sum of the numbers in an array.
- * If you did Challenge - 1, remove the comment in the line just after this function 
+ * If you did Challenge - 1, remove the comment in the line just afte this function 
  * @param {Array} arrayOfNumbers the array of numbers to sum
  * @returns number the sum of the numbers
- */
+*/
 let arrayOfNumbers =[1,2,3,4,5]
+
 function sumOfNumbers(arrayOfNumbers) {
-      let TotalNumbers =0
-      for (let i =0;i<arrayOfNumbers.lenght;i++){
-          TotalNumbers += arrayOfNumbers[i]
-      }
-    return TotalNumbers
+     let TotalNumbers =0
+ for (let i =0;i<arrayOfNumbers.lenght;i++){
+          TotalNumbers += arrayOfNumbers [i]
+ }
+return TotalNumbers
 }
 sumOfNumbers(arrayOfNumbers);
  assignment.sumOfNumbers = sumOfNumbers;
@@ -36,25 +37,21 @@ function countEvenNumbers(arrayOfNumbers) {
     return arrayOfNumbers.length;
 }
 // assignment.countEvenNumbers = countEvenNumbers;
-
 /**
  * Challenge - 3
- * 
  * Given an array of numbers representing temperatures in Celsius,
  * convert each number to Fahrenheit and return a new array containing the converted
  * temperatures in Fahrenheit. Decimal figures in the converted values in Fahrenheit should be removed.
  * E.g 51.21 should just be 51 (hint: Math.trunc(...) function)
  * If you did Challenge - 3, remove the comment in the line just after this function
- * 
  * See https://www.thoughtco.com/celcius-to-farenheit-formula-609227 for the conversion formula
- * 
  * @param {Array} arrayOfNumbers the array containing temperatures in Celsius to be converted
  * @returns Array the converted temperatures in Fahrenheit
  */
 function celsiusToFahrenheit(arrayOfNumbers) {
-    let result =arrayOfNumbers.map(e => Math.thrunc(e * 1.8 + 32))
+ let result = arrayOfNumbers.map(e => Math.trunc(e * 1.8 + 32))
     return result;
- }
+}
  assignment.celsiusToFahrenheit = celsiusToFahrenheit;
 
 
@@ -62,5 +59,3 @@ function celsiusToFahrenheit(arrayOfNumbers) {
 // DO NOT EDIT THIS BLOCK
 module.exports = assignment;
 // ========================
-
-@ 
